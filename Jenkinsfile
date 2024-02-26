@@ -1,6 +1,6 @@
 node{
     
-    def tag, dockerHubUser, containerName, httpPort = ""
+    def tag, mavenHome, mavenCMD, dockerHubUser, containerName, httpPort = ""
     
     stage('Prepare Environment'){
         echo 'Initialize Environment'
